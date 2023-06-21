@@ -1,0 +1,50 @@
+.results-list {
+  width: 100%;
+  padding: .5rem 1rem;
+  background-color: #fff;
+  box-shadow: 0 0 8px #ddd;
+  border-radius: 10px;
+  margin-top: 1rem;
+  max-height: 300px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ------------------ scrollbar style ------------------- */
+
+/* width */
+.results-list::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+.results-list::-webkit-scrollbar-track {
+  background: #ddd;
+}
+
+/* Handle */
+.results-list::-webkit-scrollbar-thumb {
+  background: #aaa;
+  border-radius: 2px;
+}
+
+/* Handle on hover */
+.results-list::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+
+ /* -------------------------------- */
+
+.result {
+  padding: .5rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.result:last-of-type {
+  border-bottom: 0;
+}
+
+mark {
+  background-color: #cee2f5;
+}
